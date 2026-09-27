@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -m json.tool)",
+      "Bash(curl -s \"https://www.bnbchain.org\")",
+      "Bash(curl -s --max-time 8 \"https://bnbchain.org\")",
+      "Bash(curl -sL --max-time 10 \"https://www.bnbchain.org/en\" -A \"Mozilla/5.0\")",
+      "WebFetch(domain:www.bnbchain.org)",
+      "WebFetch(domain:www.binance.com)",
+      "WebSearch",
+      "WebFetch(domain:medium.com)"
+    ]
+  }
+}
